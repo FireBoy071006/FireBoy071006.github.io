@@ -1,0 +1,390 @@
+/* style.css */
+
+/* Atur tampilan umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Gaya link di navigasi */
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Gaya header utama */
+h1 {
+    font-size: 24px;
+}
+
+/* Gaya bagian-bagian utama */
+section {
+    padding: 20px;
+}
+
+/* Gaya tautan sosial media di bagian Kontak */
+ul li a {
+    color: #333;
+}
+
+/* Gaya footer */
+footer {
+    position: fixed; /* Atur posisi menjadi fixed */
+    bottom: 0; /* Letakkan di bagian bawah layar */
+    left: 0; /* Letakkan di kiri */
+    right: 0; /* Letakkan di kanan */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+/* Menggunakan Flexbox untuk mengatur navigasi ke tengah */
+.main-nav {
+    display: flex;
+    justify-content: center; /* Mengatur konten ke tengah secara horizontal */
+    align-items: center; /* Mengatur konten ke tengah secara vertikal */
+}
+
+/* Mengatur gaya tautan di dalam navigasi */
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* CSS untuk tampilan navigasi yang menarik */
+.main-nav {
+    background-color: #333; /* Warna latar belakang navigasi */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk tampilan menarik */
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Menebalkan teks tautan */
+    transition: color 0.3s; /* Transisi warna saat tautan disorot */
+}
+
+.main-nav a:hover {
+    color: #ff5733; /* Warna saat tautan disorot (Anda dapat menggantinya dengan warna pilihan Anda) */
+}
+
+/* CSS untuk tampilan header dengan emoji sebagai logo */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* CSS untuk tampilan navigasi dengan emoji sebagai logo */
+.main-nav {
+    background-color: #333;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #ff5733;
+}
+
+/* Gaya emoji */
+.emoji {
+    font-size: 24px; /* Ukuran emoji */
+    margin-right: 5px; /* Jarak antara emoji dan teks tautan */
+}
+
+/* CSS untuk tampilan konten bagian (tidak perlu perubahan) */
+section {
+    display: none;
+    padding: 20px;
+}
+
+/* Gaya emoji (tidak perlu perubahan) */
+.emoji {
+    font-size: 24px;
+    margin-right: 5px;
+}
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Anda dapat menggunakan warna latar belakang yang sesuai di sini */
+    color: #000; /* Warna teks hitam */
+    text-align: center;
+}
+/* CSS untuk daftar teman */
+.friend-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.friend-list li {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.friend-list li strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.friend-list li p {
+    font-size: 14px;
+    color: #555;
+}
+.friend-list a {
+    display: inline-block;
+    background-color: #405DE6; /* Warna latar belakang Instagram */
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.friend-list a:hover {
+    background-color: #3949AB; /* Warna latar belakang saat tombol disorot */
+}
+
+.friend-list .emoji {
+    font-size: 16px;
+    margin-right: 5px;
+}
+/* CSS untuk tampilan daftar teman */
+.friend-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.friend-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.friend-list strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.friend-list p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Efek saat mengarahkan kursor ke teman */
+.friend-list li:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Membuat latar belakang berbeda untuk setiap teman */
+.friend-list:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+    /* Gaya daftar "Minat dan Hobi" */
+#interests-section {
+    /* Gaya sebelumnya di sini */
+
+    text-align: center; /* Pusatkan teks */
+}
+
+/* Gaya daftar "Minat dan Hobi" */
+#interests-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#interests-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#interests-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.interest {
+    margin: 0 20px 30px;
+    text-align: center;
+}
+
+/* Gaya emoji untuk daftar "Minat dan Hobi" */
+.interest .emoji {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Gaya judul "Minat dan Hobi" */
+.interest .interest-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hover efek pada minat dan hobi */
+.interest:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+/* Tambahkan gaya tambahan sesuai dengan jumlah minat dan hobi yang Anda miliki */
+/* Tampilan bagian Kontak */
+#contact-section {
+    background-color: #f9f9f9; /* Warna latar belakang */
+    padding: 40px; /* Ruang antara konten dan tepi bagian */
+    border-radius: 10px; /* Sudut elemen dibulatkan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan elemen */
+    text-align: center; /* Tengahkan konten */
+}
+
+#contact-title {
+    font-size: 36px; /* Ukuran font judul */
+    color: #333; /* Warna judul */
+    margin-bottom: 20px; /* Jarak antara judul dan deskripsi */
+}
+
+#contact-description {
+    font-size: 18px; /* Ukuran font deskripsi */
+    color: #666; /* Warna deskripsi */
+    margin-bottom: 30px; /* Jarak antara deskripsi dan daftar kontak */
+}
+
+#contact-list {
+    list-style-type: none; /* Hapus tanda bulletpoint daftar */
+    padding: 0; /* Hapus padding daftar */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-item {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff; /* Warna latar belakang item kontak */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan item kontak */
+    transition: background-color 0.3s; /* Transisi saat item kontak dihover */
+    text-align: center; /* Tengahkan konten item kontak */
+}
+
+.contact-item:hover {
+    background-color: #f0f0f0; /* Warna latar belakang saat dihover */
+}
+
+.emoji {
+    font-size: 24px; /* Ukuran emoji */
+    margin-bottom: 10px; /* Jarak bawah emoji */
+}
+
+.contact-info {
+    font-size: 18px; /* Ukuran font informasi kontak */
+    color: #333; /* Warna informasi kontak */
+}
+
+.contact-info a {
+    text-decoration: none; /* Hapus garis bawah tautan */
+    color: #007BFF; /* Warna tautan */
+    transition: color 0.3s; /* Transisi warna tautan saat dihover */
+}
+
+.contact-info a:hover {
+    color: #0056b3; /* Warna tautan saat dihover */
+}   
+/* CSS untuk tombol kontak */
+.contact-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+@media screen and (max-width: 768px) {
+    /* CSS styles for screens with a maximum width of 768px */
+}
